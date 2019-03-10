@@ -43,10 +43,10 @@ func parsePlatform(platform string) Platforms {
 func ParseParameters() *LocaleConverterParameters {
 
 	params := new(LocaleConverterParameters)
-	sourceParam := flag.String("source", "", "source path locale folder to process")
-	destParam := flag.String("dest", "", "destination spreadsheet file to save result")
-	actionParam := flag.String("action", "L2T | T2L", "action to execute, L2T = locale to table, T2L = table to locale")
-	platformParam := flag.String("platform", "Flex | Java", "locale folder and .properties files configuration")
+	sourceParam := flag.String("source", "", "source path locale folder to process or Excel spreadsheet to convert in locale")
+	destParam := flag.String("dest", "", "destination spreadsheet file to save result or locale folder to save .properties files")
+	actionParam := flag.String("action", "L2T", "action to execute, L2T = locale to table, T2L = table to locale")
+	platformParam := flag.String("platform", "Flex", "locale folder and .properties files configuration: can be Flex or Java")
 
 	flag.Parse()
 
