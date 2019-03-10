@@ -14,3 +14,7 @@ For convert a previous spreadsheet created with localeConverter in locale source
 ```
 ./localeConverter -action=T2L -platform=Flex -source=C:/Users/name/Documents/appLocale.xlsx -dest=C:/Users/name/workspace/app/locale
 ```
+For print help
+```
+./localeConverter --help
+```
