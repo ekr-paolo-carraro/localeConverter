@@ -2,7 +2,7 @@
 Utility to convert locale resource in Excel spreadsheet for better compare and compile lang translations.
 Currently Java and Flex locale resource are managed.
 
-![locale converter image](/url "localeConverter-image.png")
+![locale converter image](/localeConverter-image.png)
 
 ## Usage
 For convert a locale folder source in a spreadsheet
