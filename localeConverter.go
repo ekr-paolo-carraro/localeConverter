@@ -139,7 +139,6 @@ func processL2T(params *model.LocaleConverterParameters) {
 		for _, tempLang := range appModelData.LangsToManage {
 			candidateTranslation, _ := lc.GetTranslation(tempLang)
 			xlsx.SetCellValue(sheetName, string(colsLetter)+strconv.FormatUint(rowIndex, 10), candidateTranslation)
-			apputils.WriteLog(candidateTranslation, glg.INFO)
 			colsLetter++
 		}
 	}
